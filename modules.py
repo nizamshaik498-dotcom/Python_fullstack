@@ -12,7 +12,7 @@ print(rd.randint(1,10))
 print(rd.randrange(0,10,2))
 
 #rd float
-print(rd.rd())
+print(rd.random())
 print(rd.uniform(1.5,10.5))
 
 #choosing from sequence
