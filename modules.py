@@ -4,7 +4,7 @@ print(ceil(5.2))
 print(floor(5.8))
 
 #From
-import rd as rd
+import random as rd
 print(rd.randint(1,10))
 
 #rd integers
