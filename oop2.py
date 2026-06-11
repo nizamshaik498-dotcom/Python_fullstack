@@ -1,6 +1,6 @@
 
 class Person:
-    def __init__(self,name,age);
+    def __init__(self,name,age):
         self.name=name
         self.age=age
 
@@ -19,3 +19,4 @@ s=Student('Charan',28,'AI23001')
 s.greet()
 s.study()
 print(isinstance(s, Person))
+print(issubclass(Student, Person))
