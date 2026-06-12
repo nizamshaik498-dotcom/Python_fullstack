@@ -9,7 +9,7 @@ class SchoolDatabase:
             "password": "nizam07",
             "database": "school_db"
         }
-        # Verify connection on startup
+        
         try:
             conn = self.get_connection()
             if conn.is_connected():
@@ -81,7 +81,7 @@ class SchoolDatabase:
         conn.close()
         return results
 
-# --- MAIN EXECUTION ---
+
 if __name__ == "__main__":
     db = SchoolDatabase()
 
