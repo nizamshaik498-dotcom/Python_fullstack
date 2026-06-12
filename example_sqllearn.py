@@ -94,4 +94,4 @@ if __name__ == "__main__":
     high_scorers = db.get_students_above(75)
     for s in high_scorers:
         print(f"{s['name']:15} {s['department']:8} {s['marks']}")
-        print("Done")
+        
